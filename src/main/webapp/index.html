@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Start Page</title>
+        <title>Pagina de inicio</title>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="stylesheet" href="./css/style.css">
     </head>
     <body>
         <h1>Bienvenidos a la gestión de farmacias</h1>
@@ -12,7 +13,7 @@
         </form>
         <br>
         <form action="FarmaciasGarciaK" method="POST">
-            Introduce datos farmacia nueva.
+            Introduce datos farmacia nueva:<br>
             Nombre de farmacia: <input type="text" name="nombre"/><br>
             Web de farmacia: <input type="text" name="web"/><br>
             Cordenada UTMx: <input type="text" name="utmx"/><br>
@@ -37,8 +38,8 @@
         </form>
         <form action="FarmaciasGarciaK">
             ¿Quieres saber qué farmacias están abiertas hoy?
-            <input type="radio" name="contesta" value="Si"/>Sí
-            <input type="radio" name="contesta" value="No"/>No
+            <input type="radio" name="contesta" value="1"/>Sí
+            <input type="radio" name="contesta" value="0"/>No
             <input type="submit" value="Elegir" name="Elegir"/>
         </form>
     </body>

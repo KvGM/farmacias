@@ -1,0 +1,26 @@
+body{
+    background-color: grey;
+    margin: 0;
+}
+input[type="text"],input[type="submit"]{
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+input[type="submit"]{
+    background-color: black;
+    color: white;
+    padding: 5px;
+    border: 2px solid white;
+}
+input[type="submit"]:hover{
+    font-size: 15px;
+}
+h1{
+    margin:0;
+    background-color: white;
+    padding: 20px;
+}
+form{
+    margin-left: 20px;
+    margin-top: 15px;
+}

@@ -10,17 +10,9 @@ import java.util.List;
 
 public interface Persistence {
 
-  //public void open() throws Exception;
-
     public void openJSON() throws Exception;
 
-  //public void openList();
-
-  //public void close() throws Exception;
-
     public void closeJSON() throws Exception;
-
-  //public void closeList();
 
     public void add (Farmacia farmacia);
     
