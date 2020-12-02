@@ -8,7 +8,7 @@ package es.cifpcm.farmaciasgarciak.model;
 public class Farmacia {
 
     private String WEB;
-    private String LUNES, MARTES, MIERCOLES, JUEVES, VIERNES, SABADO, DOMINGO;
+    public String LUNES, MARTES, MIERCOLES, JUEVES, VIERNES, SABADO, DOMINGO;
     private String TELEFONO;
     private String NOMBRE;
     private float UTM_X;
